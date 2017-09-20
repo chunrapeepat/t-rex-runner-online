@@ -1,0 +1,24 @@
+{
+  "name": "t-rex-runner",
+  "version": "1.0.0",
+  "description": "A google-chrome t-rex-runner game but online",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node app.js --presets 'es2015'"
+  },
+  "keywords": [
+    "t-rex-runner",
+    "chunza2542"
+  ],
+  "author": "Chun Rapeepat",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
